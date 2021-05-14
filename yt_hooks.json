@@ -1,0 +1,595 @@
+{
+    "fallback": [
+        { "class_name": "com.google.android.libraries.youtube.player.background.BackgroundTransitioner", "method_name": "updateBackgroundService", "actions": [
+            { "name": "set_field_boolean_before_method", "field_name": "playbackModality.isInBackground", "value": true }
+        ] },
+        { "class_name": "com.google.android.libraries.youtube.innertube.model.PlayabilityStatusModel", "method_name": "isPlayable", "actions": [
+            { "name": "set_field_boolean_before_method", "field_name": "isBackgroundable", "value": true }
+        ] },
+        { "class_name": "com.google.android.apps.youtube.app.background.BackgroundSettings", "method_name": "getBackgroundAudioSetting", "actions": [
+            { "name": "return_string", "value": "on" }
+        ] },
+        { "class_name": "com.google.android.apps.youtube.app.background.BackgroundSettings", "method_name": "shouldShowBackgroundAudioSettingsDialog", "actions": [
+            { "name": "return_boolean", "value": true }
+        ] },
+        { "class_name": "com.google.android.libraries.youtube.common.util.PackageUtil", "method_name": "isDogfoodOrDevBuild", "actions": [
+            { "name": "return_boolean", "value": true }
+        ] }
+    ],
+    "x1000": {
+        "121060": [
+            { "class_name": "ubo", "method_name": "c", "parameter_types": [], "actions": [
+                { "name": "set_field_boolean_before_method", "field_name": "a.f", "value": true }
+            ] },
+            { "class_name": "clp", "method_name": "d", "parameter_types": [], "actions": [
+                { "name": "return_string", "value": "on" }
+            ] },
+            { "class_name": "uvr", "method_name": "d", "parameter_types": [ "yfk" ], "actions": [
+                { "name": "return_boolean", "value": true }
+            ] }
+        ],
+        "121157": [
+            { "class_name": "ufm", "method_name": "c", "parameter_types": [], "actions": [
+                { "name": "set_field_boolean_before_method", "field_name": "a.f", "value": true }
+            ] },
+            { "class_name": "cmc", "method_name": "d", "parameter_types": [], "actions": [
+                { "name": "return_string", "value": "on" }
+            ] },
+            { "class_name": "uzp", "method_name": "d", "parameter_types": [ "ykj" ], "actions": [
+                { "name": "return_boolean", "value": true }
+            ] }
+        ],
+        "121253": [
+            { "class_name": "uhq", "method_name": "c", "parameter_types": [], "actions": [
+                { "name": "set_field_boolean_before_method", "field_name": "a.f", "value": true }
+            ] },
+            { "class_name": "ckq", "method_name": "d", "parameter_types": [], "actions": [
+                { "name": "return_string", "value": "on" }
+            ] },
+            { "class_name": "vbw", "method_name": "d", "parameter_types": [ "ymv" ], "actions": [
+                { "name": "return_boolean", "value": true }
+            ] }
+        ],
+        "121353": [
+            { "class_name": "txt", "method_name": "c", "parameter_types": [], "actions": [
+                { "name": "set_field_boolean_before_method", "field_name": "a.f", "value": true }
+            ] },
+            { "class_name": "ckz", "method_name": "d", "parameter_types": [], "actions": [
+                { "name": "return_string", "value": "on" }
+            ] },
+            { "class_name": "urz", "method_name": "d", "parameter_types": [ "ydj" ], "actions": [
+                { "name": "return_boolean", "value": true }
+            ] }
+        ],
+        "121456": [
+            { "class_name": "tzz", "method_name": "c", "parameter_types": [], "actions": [
+                { "name": "set_field_boolean_before_method", "field_name": "a.f", "value": true }
+            ] },
+            { "class_name": "ckl", "method_name": "d", "parameter_types": [], "actions": [
+                { "name": "return_string", "value": "on" }
+            ] },
+            { "class_name": "uuf", "method_name": "d", "parameter_types": [ "yfy" ], "actions": [
+                { "name": "return_boolean", "value": true }
+            ] }
+        ],
+        "121554": [
+            { "class_name": "udx", "method_name": "c", "parameter_types": [], "actions": [
+                { "name": "set_field_boolean_before_method", "field_name": "a.f", "value": true }
+            ] },
+            { "class_name": "cld", "method_name": "d", "parameter_types": [], "actions": [
+                { "name": "return_string", "value": "on" }
+            ] },
+            { "class_name": "uyf", "method_name": "d", "parameter_types": [ "yki" ], "actions": [
+                { "name": "return_boolean", "value": true }
+            ] }
+        ],
+        "121555": [
+            { "class_name": "udy", "method_name": "c", "parameter_types": [], "actions": [
+                { "name": "set_field_boolean_before_method", "field_name": "a.f", "value": true }
+            ] },
+            { "class_name": "cld", "method_name": "d", "parameter_types": [], "actions": [
+                { "name": "return_string", "value": "on" }
+            ] },
+            { "class_name": "uyg", "method_name": "d", "parameter_types": [ "ykj" ], "actions": [
+                { "name": "return_boolean", "value": true }
+            ] }
+        ],
+        "121655": [
+            { "class_name": "uhi", "method_name": "c", "parameter_types": [], "actions": [
+                { "name": "set_field_boolean_before_method", "field_name": "a.f", "value": true }
+            ] },
+            { "class_name": "cli", "method_name": "d", "parameter_types": [], "actions": [
+                { "name": "return_string", "value": "on" }
+            ] },
+            { "class_name": "vbq", "method_name": "d", "parameter_types": [ "ynv" ], "actions": [
+                { "name": "return_boolean", "value": true }
+            ] }
+        ],
+        "121656": [
+            { "class_name": "uhi", "method_name": "c", "parameter_types": [], "actions": [
+                { "name": "set_field_boolean_before_method", "field_name": "a.f", "value": true }
+            ] },
+            { "class_name": "cli", "method_name": "d", "parameter_types": [], "actions": [
+                { "name": "return_string", "value": "on" }
+            ] },
+            { "class_name": "vbq", "method_name": "d", "parameter_types": [ "ynv" ], "actions": [
+                { "name": "return_boolean", "value": true }
+            ] }
+        ],
+        "121754": [
+            { "class_name": "ujx", "method_name": "c", "parameter_types": [], "actions": [
+                { "name": "set_field_boolean_before_method", "field_name": "a.f", "value": true }
+            ] },
+            { "class_name": "clm", "method_name": "d", "parameter_types": [], "actions": [
+                { "name": "return_string", "value": "on" }
+            ] },
+            { "class_name": "veg", "method_name": "d", "parameter_types": [ "yqs" ], "actions": [
+                { "name": "return_boolean", "value": true }
+            ] }
+        ]
+    },
+    "x10000": {
+        "151335": [
+            { "class_name": "ajyu", "method_name": "g", "parameter_types": [], "actions": [
+                { "name": "set_field_boolean_before_method", "field_name": "k.l", "value": true }
+            ] },
+            { "class_name": "eiu", "method_name": "f", "parameter_types": [], "actions": [
+                { "name": "return_string", "value": "on" }
+            ] },
+            { "class_name": "aljr", "method_name": "d", "parameter_types": [ "axpa" ], "actions": [
+                { "name": "return_boolean", "value": true }
+            ] }
+        ],
+        "151347": [
+            { "class_name": "akky", "method_name": "g", "parameter_types": [], "actions": [
+                { "name": "set_field_boolean_before_method", "field_name": "k.l", "value": true }
+            ] },
+            { "class_name": "ejw", "method_name": "f", "parameter_types": [], "actions": [
+                { "name": "return_string", "value": "on" }
+            ] },
+            { "class_name": "alvt", "method_name": "d", "parameter_types": [ "ayal" ], "actions": [
+                { "name": "return_boolean", "value": true }
+            ] }
+        ],
+        "151374": [
+            { "class_name": "alkw", "method_name": "g", "parameter_types": [], "actions": [
+                { "name": "set_field_boolean_before_method", "field_name": "k.l", "value": true }
+            ] },
+            { "class_name": "elu", "method_name": "f", "parameter_types": [], "actions": [
+                { "name": "return_string", "value": "on" }
+            ] },
+            { "class_name": "amvt", "method_name": "d", "parameter_types": [ "azei" ], "actions": [
+                { "name": "return_boolean", "value": true }
+            ] }
+        ],
+        "151387": [
+            { "class_name": "alpk", "method_name": "g", "parameter_types": [], "actions": [
+                { "name": "set_field_boolean_before_method", "field_name": "k.l", "value": true }
+            ] },
+            { "class_name": "emj", "method_name": "f", "parameter_types": [], "actions": [
+                { "name": "return_string", "value": "on" }
+            ] },
+            { "class_name": "anaf", "method_name": "d", "parameter_types": [ "azkh" ], "actions": [
+                { "name": "return_boolean", "value": true }
+            ] }
+        ],
+        "151400": [
+            { "class_name": "alsq", "method_name": "g", "parameter_types": [], "actions": [
+                { "name": "set_field_boolean_before_method", "field_name": "k.l", "value": true }
+            ] },
+            { "class_name": "enc", "method_name": "f", "parameter_types": [], "actions": [
+                { "name": "return_string", "value": "on" }
+            ] },
+            { "class_name": "andp", "method_name": "d", "parameter_types": [ "azqj" ], "actions": [
+                { "name": "return_boolean", "value": true }
+            ] }
+        ],
+        "151413": [
+            { "class_name": "aluy", "method_name": "g", "parameter_types": [], "actions": [
+                { "name": "set_field_boolean_before_method", "field_name": "k.l", "value": true }
+            ] },
+            { "class_name": "eni", "method_name": "f", "parameter_types": [], "actions": [
+                { "name": "return_string", "value": "on" }
+            ] },
+            { "class_name": "angd", "method_name": "d", "parameter_types": [ "aztt" ], "actions": [
+                { "name": "return_boolean", "value": true }
+            ] }
+        ],
+        "151426": [
+            { "class_name": "alyt", "method_name": "g", "parameter_types": [], "actions": [
+                { "name": "set_field_boolean_before_method", "field_name": "k.l", "value": true }
+            ] },
+            { "class_name": "enb", "method_name": "f", "parameter_types": [], "actions": [
+                { "name": "return_string", "value": "on" }
+            ] },
+            { "class_name": "anju", "method_name": "d", "parameter_types": [ "azxs" ], "actions": [
+                { "name": "return_boolean", "value": true }
+            ] }
+        ],
+        "151439": [
+            { "class_name": "amaw", "method_name": "f", "parameter_types": [], "actions": [
+                { "name": "set_field_boolean_before_method", "field_name": "k.l", "value": true }
+            ] },
+            { "class_name": "emv", "method_name": "f", "parameter_types": [], "actions": [
+                { "name": "return_string", "value": "on" }
+            ] },
+            { "class_name": "anma", "method_name": "d", "parameter_types": [ "azzw" ], "actions": [
+                { "name": "return_boolean", "value": true }
+            ] }
+        ],
+        "151453": [
+            { "class_name": "amjz", "method_name": "f", "parameter_types": [], "actions": [
+                { "name": "set_field_boolean_before_method", "field_name": "l.m", "value": true }
+            ] },
+            { "class_name": "enk", "method_name": "f", "parameter_types": [], "actions": [
+                { "name": "return_string", "value": "on" }
+            ] },
+            { "class_name": "anve", "method_name": "d", "parameter_types": [ "baiu" ], "actions": [
+                { "name": "return_boolean", "value": true }
+            ] }
+        ],
+        "151467": [
+            { "class_name": "ampf", "method_name": "f", "parameter_types": [], "actions": [
+                { "name": "set_field_boolean_before_method", "field_name": "l.m", "value": true }
+            ] },
+            { "class_name": "ems", "method_name": "f", "parameter_types": [], "actions": [
+                { "name": "return_string", "value": "on" }
+            ] },
+            { "class_name": "aoaq", "method_name": "d", "parameter_types": [ "baoz" ], "actions": [
+                { "name": "return_boolean", "value": true }
+            ] }
+        ],
+        "151479": [
+            { "class_name": "amus", "method_name": "f", "parameter_types": [], "actions": [
+                { "name": "set_field_boolean_before_method", "field_name": "l.m", "value": true }
+            ] },
+            { "class_name": "emt", "method_name": "f", "parameter_types": [], "actions": [
+                { "name": "return_string", "value": "on" }
+            ] },
+            { "class_name": "aogd", "method_name": "d", "parameter_types": [ "bavu" ], "actions": [
+                { "name": "return_boolean", "value": true }
+            ] }
+        ],
+        "151480": [
+            { "class_name": "amus", "method_name": "f", "parameter_types": [], "actions": [
+                { "name": "set_field_boolean_before_method", "field_name": "l.m", "value": true }
+            ] },
+            { "class_name": "emt", "method_name": "f", "parameter_types": [], "actions": [
+                { "name": "return_string", "value": "on" }
+            ] },
+            { "class_name": "aogd", "method_name": "d", "parameter_types": [ "bavu" ], "actions": [
+                { "name": "return_boolean", "value": true }
+            ] }
+        ],
+        "151492": [
+            { "class_name": "amxm", "method_name": "f", "parameter_types": [], "actions": [
+                { "name": "set_field_boolean_before_method", "field_name": "l.m", "value": true }
+            ] },
+            { "class_name": "emu", "method_name": "f", "parameter_types": [], "actions": [
+                { "name": "return_string", "value": "on" }
+            ] },
+            { "class_name": "aojc", "method_name": "d", "parameter_types": [ "bayw" ], "actions": [
+                { "name": "return_boolean", "value": true }
+            ] }
+        ],
+        "151505": [
+            { "class_name": "amzt", "method_name": "f", "parameter_types": [], "actions": [
+                { "name": "set_field_boolean_before_method", "field_name": "l.m", "value": true }
+            ] },
+            { "class_name": "enb", "method_name": "f", "parameter_types": [], "actions": [
+                { "name": "return_string", "value": "on" }
+            ] },
+            { "class_name": "aolo", "method_name": "d", "parameter_types": [ "bbeo" ], "actions": [
+                { "name": "return_boolean", "value": true }
+            ] }
+        ],
+        "151518": [
+            { "class_name": "andp", "method_name": "f", "parameter_types": [], "actions": [
+                { "name": "set_field_boolean_before_method", "field_name": "l.m", "value": true }
+            ] },
+            { "class_name": "enj", "method_name": "f", "parameter_types": [], "actions": [
+                { "name": "return_string", "value": "on" }
+            ] },
+            { "class_name": "aopi", "method_name": "d", "parameter_types": [ "bbky" ], "actions": [
+                { "name": "return_boolean", "value": true }
+            ] }
+        ],
+        "151544": [
+            { "class_name": "anlj", "method_name": "n", "parameter_types": [], "actions": [
+                { "name": "set_field_boolean_before_method", "field_name": "l.m", "value": true }
+            ] },
+            { "class_name": "enr", "method_name": "f", "parameter_types": [], "actions": [
+                { "name": "return_string", "value": "on" }
+            ] },
+            { "class_name": "aoxa", "method_name": "d", "parameter_types": [ "bbvi" ], "actions": [
+                { "name": "return_boolean", "value": true }
+            ] }
+        ],
+        "151557": [
+            { "class_name": "anoo", "method_name": "n", "parameter_types": [], "actions": [
+                { "name": "set_field_boolean_before_method", "field_name": "l.m", "value": true }
+            ] },
+            { "class_name": "enz", "method_name": "f", "parameter_types": [], "actions": [
+                { "name": "return_string", "value": "on" }
+            ] },
+            { "class_name": "apao", "method_name": "d", "parameter_types": [ "bccd" ], "actions": [
+                { "name": "return_boolean", "value": true }
+            ] }
+        ],
+        "151570": [
+            { "class_name": "alku", "method_name": "n", "parameter_types": [], "actions": [
+                { "name": "set_field_boolean_before_method", "field_name": "l.m", "value": true }
+            ] },
+            { "class_name": "eeo", "method_name": "f", "parameter_types": [], "actions": [
+                { "name": "return_string", "value": "on" }
+            ] },
+            { "class_name": "bcgx", "method_name": "h", "parameter_types": [ "awqn" ], "actions": [
+                { "name": "return_boolean", "value": true }
+            ] }
+        ],
+        "151583": [
+            { "class_name": "alhd", "method_name": "n", "parameter_types": [], "actions": [
+                { "name": "set_field_boolean_before_method", "field_name": "l.m", "value": true }
+            ] },
+            { "class_name": "edn", "method_name": "f", "parameter_types": [], "actions": [
+                { "name": "return_string", "value": "on" }
+            ] },
+            { "class_name": "ataj", "method_name": "f", "parameter_types": [ "awls" ], "actions": [
+                { "name": "return_boolean", "value": true }
+            ] }
+        ],
+        "151596": [
+            { "class_name": "aljr", "method_name": "n", "parameter_types": [], "actions": [
+                { "name": "set_field_boolean_before_method", "field_name": "l.m", "value": true }
+            ] },
+            { "class_name": "edv", "method_name": "f", "parameter_types": [], "actions": [
+                { "name": "return_string", "value": "on" }
+            ] },
+            { "class_name": "bcfp", "method_name": "f", "parameter_types": [ "awow" ], "actions": [
+                { "name": "return_boolean", "value": true }
+            ] }
+        ],
+        "151623": [
+            { "class_name": "alpx", "method_name": "n", "parameter_types": [], "actions": [
+                { "name": "set_field_boolean_before_method", "field_name": "l.m", "value": true }
+            ] },
+            { "class_name": "efq", "method_name": "f", "parameter_types": [], "actions": [
+                { "name": "return_string", "value": "on" }
+            ] },
+            { "class_name": "bczf", "method_name": "l", "parameter_types": [ "awxf" ], "actions": [
+                { "name": "return_boolean", "value": true }
+            ] }
+        ],
+        "151662": [
+            { "class_name": "amrh", "method_name": "n", "parameter_types": [], "actions": [
+                { "name": "set_field_boolean_before_method", "field_name": "l.m", "value": true }
+            ] },
+            { "class_name": "ewu", "method_name": "a", "parameter_types": ["int"], "actions": [
+                { "name": "set_args_value_before_method", "value": "INT:1" }
+            ] },
+            { "class_name": "bgze", "method_name": "j", "parameter_types": [ "ayic" ], "actions": [
+                { "name": "return_boolean", "value": true }
+            ] }
+        ],
+        "151859": [
+            { "class_name": "amnw", "method_name": "n", "parameter_types": [], "actions": [
+                { "name": "set_field_boolean_before_method", "field_name": "l.m", "value": true }
+            ] },
+            { "class_name": "elz", "method_name": "a", "parameter_types": ["int"], "actions": [
+                { "name": "set_args_value_before_method", "value": "INT:1" }
+            ] },
+            { "class_name": "bekn", "method_name": "i", "parameter_types": [ "ayfv" ], "actions": [
+                { "name": "return_boolean", "value": true }
+            ] }
+        ],
+        "151871": [
+            { "class_name": "ammg", "method_name": "n", "parameter_types": [], "actions": [
+                { "name": "set_field_boolean_before_method", "field_name": "l.m", "value": true }
+            ] },
+            { "class_name": "emr", "method_name": "a", "parameter_types": ["int"], "actions": [
+                { "name": "set_args_value_before_method", "value": "INT:1" }
+            ] },
+            { "class_name": "bgxg", "method_name": "j", "parameter_types": [ "ayfc" ], "actions": [
+                { "name": "return_boolean", "value": true }
+            ] }
+        ],
+        "151872": [
+            { "class_name": "ammg", "method_name": "n", "parameter_types": [], "actions": [
+                { "name": "set_field_boolean_before_method", "field_name": "l.m", "value": true }
+            ] },
+            { "class_name": "emr", "method_name": "a", "parameter_types": ["int"], "actions": [
+                { "name": "set_args_value_before_method", "value": "INT:1" }
+            ] },
+            { "class_name": "bgxg", "method_name": "j", "parameter_types": [ "ayfc" ], "actions": [
+                { "name": "return_boolean", "value": true }
+            ] }
+        ],
+        "151885": [
+            { "class_name": "aeya", "method_name": "n", "parameter_types": [], "actions": [
+                { "name": "set_field_boolean_before_method", "field_name": "l.m", "value": true }
+            ] },
+            { "class_name": "dtp", "method_name": "a", "parameter_types": ["int"], "actions": [
+                { "name": "set_args_value_before_method", "value": "INT:1" }
+            ] },
+            { "class_name": "awas", "method_name": "o", "parameter_types": [ "aosp" ], "actions": [
+                { "name": "return_boolean", "value": true }
+            ] }
+        ],
+        "151911": [
+            { "class_name": "aevn", "method_name": "n", "parameter_types": [], "actions": [
+                { "name": "set_field_boolean_before_method", "field_name": "l.m", "value": true }
+            ] },
+            { "class_name": "dua", "method_name": "a", "parameter_types": ["int"], "actions": [
+                { "name": "set_args_value_before_method", "value": "INT:1" }
+            ] },
+            { "class_name": "akwk", "method_name": "h", "parameter_types": [ "aoqu" ], "actions": [
+                { "name": "return_boolean", "value": true }
+            ] }
+        ],
+        "151924": [
+            { "class_name": "aeza", "method_name": "n", "parameter_types": [], "actions": [
+                { "name": "set_field_boolean_before_method", "field_name": "l.m", "value": true }
+            ] },
+            { "class_name": "duu", "method_name": "a", "parameter_types": ["int"], "actions": [
+                { "name": "set_args_value_before_method", "value": "INT:1" }
+            ] },
+            { "class_name": "akzl", "method_name": "f", "parameter_types": [ "aouo" ], "actions": [
+                { "name": "return_boolean", "value": true }
+            ] }
+        ],
+        "151937": [
+            { "class_name": "afav", "method_name": "n", "parameter_types": [], "actions": [
+                { "name": "set_field_boolean_before_method", "field_name": "l.m", "value": true }
+            ] },
+            { "class_name": "dvc", "method_name": "a", "parameter_types": ["int"], "actions": [
+                { "name": "set_args_value_before_method", "value": "INT:1" }
+            ] },
+            { "class_name": "alpf", "method_name": "f", "parameter_types": [ "aows" ], "actions": [
+                { "name": "return_boolean", "value": true }
+            ] }
+        ],
+        "151938": [
+            { "class_name": "afav", "method_name": "n", "parameter_types": [], "actions": [
+                { "name": "set_field_boolean_before_method", "field_name": "l.m", "value": true }
+            ] },
+            { "class_name": "dvc", "method_name": "a", "parameter_types": ["int"], "actions": [
+                { "name": "set_args_value_before_method", "value": "INT:1" }
+            ] },
+            { "class_name": "alpf", "method_name": "f", "parameter_types": [ "aows" ], "actions": [
+                { "name": "return_boolean", "value": true }
+            ] }
+        ],
+        "151950": [
+            { "class_name": "afow", "method_name": "n", "parameter_types": [], "actions": [
+                { "name": "set_field_boolean_before_method", "field_name": "l.m", "value": true }
+            ] },
+            { "class_name": "dvq", "method_name": "a", "parameter_types": ["int"], "actions": [
+                { "name": "set_args_value_before_method", "value": "INT:1" }
+            ] },
+            { "class_name": "axjn", "method_name": "f", "parameter_types": [ "apuf" ], "actions": [
+                { "name": "return_boolean", "value": true }
+            ] }
+        ],
+        "151951": [
+            { "class_name": "afow", "method_name": "n", "parameter_types": [], "actions": [
+                { "name": "set_field_boolean_before_method", "field_name": "l.m", "value": true }
+            ] },
+            { "class_name": "dvq", "method_name": "a", "parameter_types": ["int"], "actions": [
+                { "name": "set_args_value_before_method", "value": "INT:1" }
+            ] },
+            { "class_name": "axjn", "method_name": "f", "parameter_types": [ "apuf" ], "actions": [
+                { "name": "return_boolean", "value": true }
+            ] }
+        ],
+        "151963": [
+            { "class_name": "afqx", "method_name": "n", "parameter_types": [], "actions": [
+                { "name": "set_field_boolean_before_method", "field_name": "l.m", "value": true }
+            ] },
+            { "class_name": "dwd", "method_name": "a", "parameter_types": ["int"], "actions": [
+                { "name": "set_args_value_before_method", "value": "INT:1" }
+            ] },
+            { "class_name": "axhj", "method_name": "e", "parameter_types": [ "apvf" ], "actions": [
+                { "name": "return_boolean", "value": true }
+            ] }
+        ],
+        "151976": [
+            { "class_name": "afxc", "method_name": "n", "parameter_types": [], "actions": [
+                { "name": "set_field_boolean_before_method", "field_name": "l.m", "value": true }
+            ] },
+            { "class_name": "dwf", "method_name": "a", "parameter_types": ["int"], "actions": [
+                { "name": "set_args_value_before_method", "value": "INT:1" }
+            ] },
+            { "class_name": "aycv", "method_name": "k", "parameter_types": [ "aqcu" ], "actions": [
+                { "name": "return_boolean", "value": true }
+            ] }
+        ],
+        "151990": [
+            { "class_name": "agcd", "method_name": "n", "parameter_types": [], "actions": [
+                { "name": "set_field_boolean_before_method", "field_name": "l.m", "value": true }
+            ] },
+            { "class_name": "dwm", "method_name": "a", "parameter_types": ["int"], "actions": [
+                { "name": "set_args_value_before_method", "value": "INT:1" }
+            ] },
+            { "class_name": "avpt", "method_name": "f", "parameter_types": [ "aqjw" ], "actions": [
+                { "name": "return_boolean", "value": true }
+            ] }
+        ],
+        "152002": [
+            { "class_name": "aghs", "method_name": "n", "parameter_types": [], "actions": [
+                { "name": "set_field_boolean_before_method", "field_name": "l.m", "value": true }
+            ] },
+            { "class_name": "dwz", "method_name": "a", "parameter_types": ["int"], "actions": [
+                { "name": "set_args_value_before_method", "value": "INT:1" }
+            ] },
+            { "class_name": "ahkg", "method_name": "f", "parameter_types": [ "aqol" ], "actions": [
+                { "name": "return_boolean", "value": true }
+            ] }
+        ],
+        "152003": [
+            { "class_name": "aghs", "method_name": "n", "parameter_types": [], "actions": [
+                { "name": "set_field_boolean_before_method", "field_name": "l.m", "value": true }
+            ] },
+            { "class_name": "dwz", "method_name": "a", "parameter_types": ["int"], "actions": [
+                { "name": "set_args_value_before_method", "value": "INT:1" }
+            ] },
+            { "class_name": "ahkg", "method_name": "f", "parameter_types": [ "aqol" ], "actions": [
+                { "name": "return_boolean", "value": true }
+            ] }
+        ],
+        "152016": [
+            { "class_name": "agjn", "method_name": "n", "parameter_types": [], "actions": [
+                { "name": "set_field_boolean_before_method", "field_name": "l.m", "value": true }
+            ] },
+            { "class_name": "dxc", "method_name": "a", "parameter_types": ["int"], "actions": [
+                { "name": "set_args_value_before_method", "value": "INT:1" }
+            ] },
+            { "class_name": "ahlw", "method_name": "f", "parameter_types": [ "aqpe" ], "actions": [
+                { "name": "return_boolean", "value": true }
+            ] }
+        ],
+        "152029": [
+            { "class_name": "aglt", "method_name": "n", "parameter_types": [], "actions": [
+                { "name": "set_field_boolean_before_method", "field_name": "l.m", "value": true }
+            ] },
+            { "class_name": "dxj", "method_name": "a", "parameter_types": ["int"], "actions": [
+                { "name": "set_args_value_before_method", "value": "INT:1" }
+            ] },
+            { "class_name": "ahoe", "method_name": "f", "parameter_types": [ "aqss" ], "actions": [
+                { "name": "return_boolean", "value": true }
+            ] }
+        ],
+        "152042": [
+            { "class_name": "agqk", "method_name": "n", "parameter_types": [], "actions": [
+                { "name": "set_field_boolean_before_method", "field_name": "l.m", "value": true }
+            ] },
+            { "class_name": "dze", "method_name": "a", "parameter_types": ["int"], "actions": [
+                { "name": "set_args_value_before_method", "value": "INT:1" }
+            ] },
+            { "class_name": "ahsw", "method_name": "f", "parameter_types": [ "aqxx" ], "actions": [
+                { "name": "return_boolean", "value": true }
+            ] }
+        ],
+        "152056": [
+            { "class_name": "agml", "method_name": "n", "parameter_types": [], "actions": [
+                { "name": "set_field_boolean_before_method", "field_name": "l.m", "value": true }
+            ] },
+            { "class_name": "dzc", "method_name": "a", "parameter_types": ["int"], "actions": [
+                { "name": "set_args_value_before_method", "value": "INT:1" }
+            ] },
+            { "class_name": "ahov", "method_name": "d", "parameter_types": [ "aqvs" ], "actions": [
+                { "name": "return_boolean", "value": true }
+            ] }
+        ],
+        "152069": [
+            { "class_name": "aftp", "method_name": "n", "parameter_types": [], "actions": [
+                { "name": "set_field_boolean_before_method", "field_name": "l.m", "value": true }
+            ] },
+            { "class_name": "dzd", "method_name": "a", "parameter_types": ["int"], "actions": [
+                { "name": "set_args_value_before_method", "value": "INT:1" }
+            ] },
+            { "class_name": "agwh", "method_name": "f", "parameter_types": [ "aqgw" ], "actions": [
+                { "name": "return_boolean", "value": true }
+            ] }
+        ]
+    }
+}
