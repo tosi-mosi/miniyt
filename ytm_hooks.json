@@ -58,6 +58,20 @@
             { "class_name": "dxp", "method_name": "d", "parameter_types": [], "actions": [
                 { "name": "return_boolean", "value": true }
             ] }
+        ],
+        "42651": [
+            { "class_name": "ywx", "method_name": "c", "parameter_types": [ "agme" ], "actions": [
+                { "name": "return_boolean", "value": true }
+            ] },
+            { "class_name": "ekq", "method_name": "d", "parameter_types": [], "actions": [
+                { "name": "return_boolean", "value": true }
+            ] },
+            { "class_name": "ekq", "method_name": "e", "parameter_types": [], "actions": [
+                { "name": "return_boolean", "value": true }
+            ] },
+            { "class_name": "eks", "method_name": "d", "parameter_types": [], "actions": [
+                { "name": "return_boolean", "value": true }
+            ] }
         ]
     },
     "x10000": {
