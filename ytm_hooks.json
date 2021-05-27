@@ -100,6 +100,20 @@
             { "class_name": "emc", "method_name": "d", "parameter_types": [], "actions": [
                 { "name": "return_boolean", "value": true }
             ] }
+        ],
+        "42950": [
+            { "class_name": "ytm", "method_name": "d", "parameter_types": [ "ahsk" ], "actions": [
+                { "name": "return_boolean", "value": true }
+            ] },
+            { "class_name": "emh", "method_name": "e", "parameter_types": [], "actions": [
+                { "name": "return_boolean", "value": true }
+            ] },
+            { "class_name": "emh", "method_name": "h", "parameter_types": [], "actions": [
+                { "name": "return_boolean", "value": false }
+            ] },
+            { "class_name": "emh", "method_name": "e", "parameter_types": [], "actions": [
+                { "name": "return_boolean", "value": true }
+            ] }
         ]
     },
     "x10000": {
