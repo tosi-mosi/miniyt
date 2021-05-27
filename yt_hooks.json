@@ -604,7 +604,7 @@
         ],
         "152108": [
             { "class_name": "afid", "method_name": "e", "parameter_types": [], "actions": [
-                { "name": "set_field_boolean_before_method", "field_name": "j.m", "value": true }
+                { "name": "set_field_boolean_before_method", "field_name": "l.m", "value": true }
             ] },
             { "class_name": "dzb", "method_name": "a", "parameter_types": ["int"], "actions": [
                 { "name": "set_args_value_before_method", "value": "INT:1" }
