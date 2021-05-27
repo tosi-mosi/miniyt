@@ -111,7 +111,7 @@
             { "class_name": "emh", "method_name": "h", "parameter_types": [], "actions": [
                 { "name": "return_boolean", "value": false }
             ] },
-            { "class_name": "emh", "method_name": "e", "parameter_types": [], "actions": [
+            { "class_name": "emj", "method_name": "e", "parameter_types": [], "actions": [
                 { "name": "return_boolean", "value": true }
             ] }
         ]
