@@ -114,6 +114,20 @@
             { "class_name": "emj", "method_name": "e", "parameter_types": [], "actions": [
                 { "name": "return_boolean", "value": true }
             ] }
+        ],
+        "43050": [
+            { "class_name": "yuu", "method_name": "d", "parameter_types": [ "ahun" ], "actions": [
+                { "name": "return_boolean", "value": true }
+            ] },
+            { "class_name": "emr", "method_name": "e", "parameter_types": [], "actions": [
+                { "name": "return_boolean", "value": true }
+            ] },
+            { "class_name": "emr", "method_name": "i", "parameter_types": [], "actions": [
+                { "name": "return_boolean", "value": false }
+            ] },
+            { "class_name": "emt", "method_name": "e", "parameter_types": [], "actions": [
+                { "name": "return_boolean", "value": true }
+            ] }
         ]
     },
     "x10000": {
