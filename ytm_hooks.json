@@ -128,6 +128,20 @@
             { "class_name": "emt", "method_name": "e", "parameter_types": [], "actions": [
                 { "name": "return_boolean", "value": true }
             ] }
+        ],
+        "43150": [
+            { "class_name": "yww", "method_name": "d", "parameter_types": [ "ahwx" ], "actions": [
+                { "name": "return_boolean", "value": true }
+            ] },
+            { "class_name": "enn", "method_name": "e", "parameter_types": [], "actions": [
+                { "name": "return_boolean", "value": true }
+            ] },
+            { "class_name": "enn", "method_name": "i", "parameter_types": [], "actions": [
+                { "name": "return_boolean", "value": false }
+            ] },
+            { "class_name": "enp", "method_name": "e", "parameter_types": [], "actions": [
+                { "name": "return_boolean", "value": true }
+            ] }
         ]
     },
     "x10000": {
