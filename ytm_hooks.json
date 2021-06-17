@@ -142,6 +142,20 @@
             { "class_name": "enp", "method_name": "e", "parameter_types": [], "actions": [
                 { "name": "return_boolean", "value": true }
             ] }
+        ],
+        "43250": [
+            { "class_name": "zas", "method_name": "e", "parameter_types": [ "ahzb" ], "actions": [
+                { "name": "return_boolean", "value": true }
+            ] },
+            { "class_name": "enw", "method_name": "e", "parameter_types": [], "actions": [
+                { "name": "return_boolean", "value": true }
+            ] },
+            { "class_name": "enw", "method_name": "i", "parameter_types": [], "actions": [
+                { "name": "return_boolean", "value": false }
+            ] },
+            { "class_name": "eny", "method_name": "e", "parameter_types": [], "actions": [
+                { "name": "return_boolean", "value": true }
+            ] }
         ]
     },
     "x10000": {
