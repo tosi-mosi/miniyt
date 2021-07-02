@@ -170,6 +170,20 @@
             { "class_name": "eov", "method_name": "e", "parameter_types": [], "actions": [
                 { "name": "return_boolean", "value": true }
             ] }
+        ],
+        "43452": [
+            { "class_name": "zhg", "method_name": "e", "parameter_types": [ "aijk" ], "actions": [
+                { "name": "return_boolean", "value": true }
+            ] },
+            { "class_name": "eoy", "method_name": "e", "parameter_types": [], "actions": [
+                { "name": "return_boolean", "value": true }
+            ] },
+            { "class_name": "eoy", "method_name": "i", "parameter_types": [], "actions": [
+                { "name": "return_boolean", "value": false }
+            ] },
+            { "class_name": "epa", "method_name": "e", "parameter_types": [], "actions": [
+                { "name": "return_boolean", "value": true }
+            ] }
         ]
     },
     "x10000": {
