@@ -667,6 +667,17 @@
             { "class_name": "ahqx", "method_name": "g", "parameter_types": [ "arab" ], "actions": [
                 { "name": "return_boolean", "value": true }
             ] }
+        ],
+        "152199": [
+            { "class_name": "agot", "method_name": "e", "parameter_types": [], "actions": [
+                { "name": "set_field_boolean_before_method", "field_name": "l.m", "value": true }
+            ] },
+            { "class_name": "eau", "method_name": "a", "parameter_types": ["int"], "actions": [
+                { "name": "set_args_value_before_method", "value": "INT:1" }
+            ] },
+            { "class_name": "ahrv", "method_name": "g", "parameter_types": [ "arbc" ], "actions": [
+                { "name": "return_boolean", "value": true }
+            ] }
         ]
     }
 }
